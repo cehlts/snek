@@ -1,0 +1,11 @@
+[package]
+name = "snek"
+version = "0.1.0"
+authors = ["Christoph Ehlts <c.ehlts@qune.de>"]
+license = "MIT"
+edition = "2021"
+
+[dependencies]
+crossterm = "0.27.0"
+rand = "0.8.5"
+ratatui = "0.26.0"
