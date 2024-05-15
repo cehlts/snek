@@ -36,6 +36,7 @@ impl App {
     }
 
     pub fn handle_resize(&mut self) -> AppResult<()> {
+        self.size = None;
         self.game = None;
         Ok(())
     }

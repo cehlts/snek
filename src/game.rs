@@ -156,7 +156,5 @@ impl Game {
         for food in &self.food {
             buf.set_string(food.x, food.y, "O", Style::default().fg(Color::Red));
         }
-        // buf.set_string(17, 10, "O", Style::default().fg(Color::Green));
-        // buf.set_string(35, 16, "F", Style::default().fg(Color::Red));
     }
 }
